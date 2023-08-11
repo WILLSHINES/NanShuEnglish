@@ -1,0 +1,25 @@
+<!--pages/grammer/grammer.wxml-->
+<view class="main">
+    <view class="switchChapter">
+        <van-cell-group inset>
+        <van-cell title="选择语法章节" value="{{tips}}" is-link arrow-direction="down" center size="large" bind:click="showsheet" />
+    </van-cell-group>
+
+    </view>
+
+    <view class="content-info">
+    <towxml nodes="{{article}}"/>
+    </view>
+
+    <van-popup
+  show="{{show}}"
+  round
+  position="top"
+  custom-style="height: 70%"
+>
+        <view>
+        <van-picker columns="{{ columns }}" 
+        visible-item-count="{{10}}"  bind:change="onChange" bind:cancel="onCancel" bind:confirm="onConfirm" show-toolbar title="选择章节"/>
+        </view>
+    </van-popup>
+</view>

@@ -1,0 +1,20 @@
+{
+  "name": "nanshuenglish",
+  "version": "1.0.0",
+  "description": "小程序",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "鄢海冰",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.10.4",
+    "lin-ui": "^0.9.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/Yanhaibing-willshine/nanshu-english.git"
+  }
+}

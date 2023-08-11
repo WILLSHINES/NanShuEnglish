@@ -1,0 +1,12 @@
+<!--pages/group1/group1.wxml-->
+<view class="main">
+  <view class="tip"><text>点击短语卡片隐藏或显示译文</text></view>
+  <view class="contentview" wx:for="{{allgroup}}" wx:key="index" bindtap="showexp" id="{{index}}">
+  <view class="tips"><text >{{index}}</text></view>
+    <view class="contenttxt">
+      <text style="font-size:22px;color:#e43d18;">{{item.word}}</text>
+      <text style="font-size:15px" class='{{uhiden == index?"isshow":"ishidden"}}'>\n{{item.exp}}</text>
+    </view>
+  </view>
+
+</view>

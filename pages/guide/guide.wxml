@@ -1,0 +1,14 @@
+<!--pages/guide/guide.wxml-->
+<view>
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="5000" duration="1000" circular="{{true}}">
+        <block wx:for="{{imgs}}" wx:for-index="index" wx:key="swiperItem" wx:for-item="item" >
+          <swiper-item class="swiper-items"  >
+            <image class="swiper-image" src="{{item}}" mode="aspectFill"></image>
+           
+          </swiper-item>
+        </block>
+</swiper>
+ <view class="buttonflex">
+            <van-button class="button-img"  type="info" bindtap="userIt" wx:if="{{true}}" >立即体验</van-button>
+            </view>
+</view>

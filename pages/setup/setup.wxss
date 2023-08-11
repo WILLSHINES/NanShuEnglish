@@ -1,0 +1,25 @@
+/* pages/setup/setup.wxss */
+page{
+    background-color: #f8f8f8;
+}
+.fenge{
+    margin-top: 30rpx;
+}
+.cancellation{
+    width: 100%;
+    margin-top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.cancellation-button{
+    width: 60%;
+    height: 100rpx;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #f78f4e;
+    border-radius: 15rpx;
+    color: #fff;
+    font-size: 30rpx;
+}

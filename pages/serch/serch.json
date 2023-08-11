@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "l-search-bar":"../../miniprogram_npm/lin-ui/search-bar/index",
+    "l-card":"../../miniprogram_npm/lin-ui/card/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-picker": "@vant/weapp/picker/index",
+    "van-skeleton": "@vant/weapp/skeleton/index"
+
+  },
+  "navigationBarBackgroundColor": "#f9f9f9",
+  "navigationStyle": "custom"
+}

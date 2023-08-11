@@ -1,0 +1,15 @@
+<!--pages/words/words.wxml-->
+<view class="main">
+  <view class="contentview" bindtap="{{item.thisfunction}}" wx:for="{{arr}}" wx:key="index">
+    <view class="content_image">
+      <image
+        src="{{item.img}}" />
+      
+    </view>
+    <view class="contenttxt">
+    <text style="">{{item.name}}</text>
+    <text style="font-size:30rpx;color:#393e46">{{item.mintitle}}</text>
+    <text style="font-size:25rpx;color:#393e46;    background-color: #d0dbf5af;" >{{item.poetry}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+/* pages/yinbiao/yinbiao.wxss */
+page{
+    background-color: #eff1f5;
+}

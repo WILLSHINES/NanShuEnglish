@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-stepper": "@vant/weapp/stepper/index",
+    "van-popup": "@vant/weapp/popup/index"
+  },
+  "navigationBarTitleText": "记单词",
+  "navigationStyle": "custom"
+}

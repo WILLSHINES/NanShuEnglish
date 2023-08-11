@@ -1,0 +1,58 @@
+<!--pages/serch/serch.wxml-->
+
+<!-- <form  bindsubmit="onTranslate"> -->
+<!-- <textarea placeholder="CH" name="中文框"></textarea> -->
+<!-- <textarea  name="英文框">{{ result}}</textarea> -->
+<!-- <button form-type="submit">翻译</button>
+</form> -->
+<view class="serch-view">
+<l-search-bar 
+    placeholder="请输入查询单词"
+    bg-color="#f6f6f6"
+    shape="primary"
+    icon-color="#2867CE"
+    icon-size="36"
+    show-cancel="{{true}}"
+    focus="{{flase}}"
+    front-text="{{fronttext}}"
+    bind:linfronttap="showPopup"
+    bind:linconfirm="onTranslate"
+    bind:lincancel="onserchCancel"
+    l-class="serchbg"
+    l-container-class="{{itstyle}}"
+    bind:linfocus="onFocus"
+    bind:linblur="onBlur"
+    />
+</view>
+<view class="showResult-view">
+  <view class="translatelogo"><image src="../../images/litlelogo.png" />
+    <text >翻译结果</text>
+  </view>
+  <text style="font-size: 10px;color: #c0c0c0">注:支持整句翻译\t长按翻译结果可以复制</text>
+  <view class="resultxt">
+
+    <view class="frommean"><text   selectable="true">{{result}}</text></view>
+    <view class="tomean"><text >{{value}}</text></view>
+  </view>
+
+</view>
+<view class="motto">
+<text >「 读书之法，在循序而渐进，熟读而精思。」 </text>
+</view>
+<van-popup
+  show="{{show}}"
+  round
+  position="bottom"
+  custom-style="height: 60%"
+>
+<van-picker
+  show-toolbar
+  title="选择语言"
+  columns="{{ columns }}"
+  bind:cancel="onCancel"
+  bind:confirm="onConfirm"
+/>
+
+</van-popup>
+
+

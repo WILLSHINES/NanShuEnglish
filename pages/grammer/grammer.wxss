@@ -1,0 +1,33 @@
+/**基础风格样式**/
+
+@import'../../towxml/style/main.wxss';
+
+/**如果页面有动态主题切换，则需要将使用到的样式全部引入**/
+
+/**主题配色（浅色样式）**/
+
+@import'../../towxml/style/theme/light.wxss';
+
+/**主题配色（深色样式）**/
+
+@import'../../towxml/style/theme/dark.wxss';
+
+page{
+    background: #eff1f5
+    }
+.main{
+    width: 94%;
+    margin: 3% auto;
+    padding-top: 40rpx;
+}
+.switchChapter{
+    width: 94%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 20rpx;
+}
+.content-info{
+    margin-top: 80rpx;
+    width: 100%;
+    height: auto;
+}

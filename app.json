@@ -1,0 +1,55 @@
+{
+    "pages": [
+        "pages/start/start",
+        "pages/guide/guide",
+        "pages/index/index",
+        "pages/serch/serch",
+        "pages/user/user",
+        "pages/yinbiao/yinbiao",
+        "pages/grammer/grammer",
+        "pages/words/words",
+        "pages/recitewords/recitewords",
+        "pages/setup/setup",
+        "pages/group1/group1",
+        "pages/group2/group2",
+        "pages/group3/group3",
+        "pages/group4/group4",
+        "pages/group5/group5",
+        "pages/group6/group6",
+        "pages/group7/group7",
+        "pages/group8/group8",
+        "pages/group9/group9"
+        
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "南书英语",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+      "selectedColor": "#A8A5FF",
+      "color": "#A6A6A6",
+        "list": [
+          {
+            "pagePath": "pages/index/index",
+            "text": "首页",
+            "iconPath": "./images/ucontent.png",
+            "selectedIconPath": "./images/content.png"
+          },
+          {
+            "pagePath": "pages/serch/serch",
+            "iconPath": "./images/userch.png",
+            "text": "翻译",
+            "selectedIconPath": "./images/serch.png"
+          },
+          {
+            "pagePath": "pages/user/user",
+            "text": "个人中心",
+            "iconPath": "/images/uuser.png",
+            "selectedIconPath": "./images/user.png"
+          }
+        ]
+      },
+    "sitemapLocation": "sitemap.json"
+}

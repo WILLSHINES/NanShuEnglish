@@ -1,0 +1,105 @@
+<!-- index.wxml -->
+<view class="greeting">
+    <view class="yellowhello">
+        <image class="sun" src="{{sunimg}}" />
+        <text class="greetingText" space="ensp">GOOD {{promptTimeSole}}</text>
+    </view>
+    <view>
+        <text class="greetingUser">HI,{{username}}!</text>
+    </view>
+</view>
+<view class="main">
+    <view class="wenan">
+        <view class="wenantitle">
+            <view class="thistitle">
+                <!-- <view class="titlebg">cherich</view> -->
+                <view class="titlebg">南书英语</view>
+                <view class="title1">优美金句</view>
+            </view>
+        </view>
+        <text class="indexWenan">{{Wenan}}</text>
+    </view>
+    <!-- 中间的maincontent部分 -->
+    <view class="maincontent">
+        <view class="allbuttons">
+            <view class=" buttonview">
+                <view class="viewimage">
+                    <image src="../../images/index01.png" />
+                    <text class="viewfont">国际音标</text>
+                </view>
+                <view class="buttonviewtxt">
+                    <view>
+                        <text>是学习英语的基础，由48个音标构成</text>
+                    </view>
+                    <view class="buttonstar">
+                        <view>
+                            <image src="../../images/xunzhang.png" />
+                        </view>
+                        <view class="buttonstar1" bindtap="toyinbiao">
+                            <text>点击学习</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class=" buttonview">
+                <view class="viewimage">
+                    <image src="../../images/index02.png" />
+                    <text class="viewfont">基础语法</text>
+                </view>
+                <view class="buttonviewtxt">
+                    <view>
+                        <text>提高英语水平有事半功倍的作用</text>
+                    </view>
+                    <view class="buttonstar">
+                        <view>
+                            <image src="../../images/xunzhang.png" />
+                        </view>
+                        <view class="buttonstar1" bindtap="togrammer">
+                            <text>点击学习</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class=" buttonview">
+                <view class="viewimage">
+                    <image src="../../images/index03.png" />
+                    <text class="viewfont">单词短语</text>
+                </view>
+                <view class="buttonviewtxt">
+                    <view>
+                        <text>是英语的根基，是构成英语的基本材料</text>
+                    </view>
+                    <view class="buttonstar">
+                        <view>
+                            <image src="../../images/xunzhang.png" />
+                        </view>
+                        <view class="buttonstar1" bindtap="towords">
+                            <text>点击学习</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- 大的let's go按钮部分 -->
+    <view class="rememberwords" bindtap="words">
+        <view class="remtext">
+            <text space="ensp" class="remtextOne">Let's recite words！</text>
+            <text class="remtextTwo">开始记单词</text>
+        </view>
+        <view class="bgRound">
+            <text>GO</text>
+        </view>
+    </view>
+    <!-- 分享和评价我们 -->
+    <view class="share_evaluation">
+        <view class="share_view">
+            <van-button type="info" block color="#ff5c43" open-type="share">
+                分享好友
+            </van-button>
+        </view>
+    </view>
+    <view class="right">
+        <text>©Copyright南书版权所有 {{thisyear}}</text>
+    </view>
+</view>

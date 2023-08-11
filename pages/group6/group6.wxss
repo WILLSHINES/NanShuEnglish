@@ -1,0 +1,53 @@
+/* pages/grammer/grammer.wxss */
+page {
+    background-color: #eff1f5;
+}
+
+.main {
+    width: 94%;
+    margin: 3% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contentview {
+    height: 220rpx;
+    display: flex;
+   
+    align-items: center;
+    background-color: #ffffffa2;
+    padding: 20rpx;
+    border-radius: 15rpx;
+    font-size: larger;
+    width: 43%;
+    margin-top: 40rpx;
+}
+
+.tip {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 25rpx;
+    color: #666666a2;
+}
+
+.isshow {
+    display: block;
+}
+
+.ishidden {
+    display: none;
+
+}
+.contenttxt{
+    z-index: 0;
+}
+
+.tips {
+   position: absolute;
+   font-size: 100rpx;
+   z-index: -1;
+   color: #6868686b;
+   font-weight: 500;
+}

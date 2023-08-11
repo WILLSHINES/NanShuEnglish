@@ -1,0 +1,23 @@
+/* pages/guide/guide.wxss */
+swiper {
+    position: absolute;
+    height: 1624rpx;
+    width: 100%;
+}
+
+.swiper-image {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+.buttonflex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-img {
+    position: fixed;
+    bottom: 170rpx;
+    opacity: 1;
+}

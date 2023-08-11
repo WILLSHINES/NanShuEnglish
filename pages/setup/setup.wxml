@@ -1,0 +1,22 @@
+<!--pages/setup/setup.wxml-->
+<view class="fenge">
+    <van-cell-group inset>
+        <van-cell title="主题" value="明亮模式"  size="large"clickable="true"/>
+        <van-cell title="性别" value="{{gender}}"  size="large"clickable="true"/>
+    </van-cell-group>
+</view>
+
+<view class="fenge">
+  <van-cell-group inset>
+  <van-cell size="large" title="推荐给好友" clickable="true"/>
+  <van-cell size="large" title="帮助中心" clickable="true" />
+  <van-cell size="large" title="关于我们" value="南书英语" clickable="true" />
+  <van-cell size="large" title="联系开发者" value="IAMWILLSHIE" label="微信号"/>
+  <van-cell size="large" title="小程序版本" value="1.0.0" label="开发版" />
+</van-cell-group>
+</view>
+
+<view class="cancellation">
+    <view class="cancellation-button" bindtap="loginout"><text >注销</text></view>
+</view>
+

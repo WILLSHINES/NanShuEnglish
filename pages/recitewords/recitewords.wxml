@@ -1,0 +1,39 @@
+<!--pages/recitewords/recitewords.wxml-->
+<view class="head">
+    <view class="title" ><text >记单词</text></view>
+</view>
+
+<view class="show_words">
+    <view class="en_mean">{{enword}}</view>
+    <view class="cn_mean">{{exp}}</view>
+</view>
+<view class="controlling">
+<view class="upwords" bindtap = "upwords"><text style="color:rgb(240, 122, 122) ;font-size:20px;">Previous</text><text style="color:#a4775b ;font-size:12px;">上一个\n</text></view>
+<view class="next_word" bindtap = "next_word"><text style="color:#ff9838;font-size:20px;">Next</text><text style="color:#a4775b ;font-size:12px;">记住了\n</text></view>
+</view>
+<view class="float">
+    <view class="returnindex" bindtap = "returnindex"><image src="../../images/return.png" /></view>
+    <view class="more" bindtap = "more"><image src="../../images/more.png" /></view>
+</view>
+
+<van-popup 
+    show="{{ show }}" 
+    position="bottom"
+    closeable
+    round
+    duration="500"
+    safe-area-inset-bottom="true"
+    custom-style="height: 40%;"
+    bind:close="onClose">
+   <view class="content">
+    <text >选择单词数量：</text>
+    <van-stepper 
+        value="{{ wordcount}}" 
+        min="0"
+        max="200"
+        button-size="32px"
+        step="10" 
+        bind:change="onChange"
+        />
+   </view>
+</van-popup>

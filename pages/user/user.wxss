@@ -1,0 +1,162 @@
+/* pages/user/user.wxss */
+page{
+    background-color: #eff1f5;
+}
+.main{
+    width: 96%;
+    margin: 0 auto;
+}
+.setup{
+    width: 100%;
+    height:60rpx;
+    margin-top: 180rpx;
+}
+.setbutton>image{
+    width: 60rpx;
+    height: 60rpx;
+    margin-right: 14rpx;
+}
+.setbutton{
+    display: flex;
+    justify-content: flex-end;
+}
+.head{
+    width: 100%;
+    height: 400rpx;
+    padding-top:20rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userhead>image {
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 100%;
+}
+.userhead{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 100%;
+    border: 2px solid #ececec;
+    z-index: 99;
+}
+.userhead::before
+{
+        position: fixed;
+        margin-top: -40rpx;
+        top: 300rpx;
+        content: "";
+        width: 200rpx;
+        height: 200rpx;
+        border-radius: 50%;
+        background-color: rgba(212, 212, 212, 0.9);
+        z-index: -1;
+}
+
+.userhead::after{
+    position: fixed;
+        margin-top: -40rpx;
+        margin-left: -200rpx;
+        top: 300rpx;
+        content: "";
+        width: 200rpx;
+        height: 200rpx;
+        border-radius: 50%;
+        background-color: rgba(213, 213, 213, 0.9);
+        z-index: -11;
+}
+.usergrade>image{
+    width: 140rpx;
+    height: 60rpx;
+    margin-right: 20rpx;
+}
+.usergrade{
+    width: 52%;
+    padding: 10rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9deb5a4;
+    color: #be8903;
+    font-size: 30rpx;
+    border-radius: 25rpx;
+    margin-top: 30rpx;
+
+}
+.username{
+    font-size: 50rpx;
+    margin-top: 35rpx;
+}
+.content{
+    width: 100%;
+    height: 450rpx;
+    margin-top: 100rpx;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftcard,
+.rightcard{
+    width: 44%;
+    height: 400rpx;
+    border-radius: 25rpx;
+    background-color: #ffffff;
+}
+.leftcardbg>image,
+.rightcardbg>image{
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.leftcard,.rightcard{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.leftcardbg{
+    width: 110rpx;
+    height: 110rpx;
+    background-color: #C1F7C5;
+    border-radius: 25rpx;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.rightcardbg{
+    width: 110rpx;
+    height: 110rpx;
+    background-color: #C3D0F7;
+    border-radius: 25rpx;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+@keyframes scale {
+    0% {
+      transform: scale(1.1);
+      opacity: 0.9;
+    }
+    100% {
+      transform: scale(1.3);
+      opacity: 0;
+    }
+  }
+  @keyframes scale1 {
+    0% {
+      transform: scale(1.1);
+      opacity: 0.9;
+    }
+    100% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+  .userhead::before {
+    animation: scale 2s infinite;
+  }
+  .userhead::after {
+    animation: scale1 2s infinite;
+  }

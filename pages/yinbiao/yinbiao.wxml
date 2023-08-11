@@ -1,0 +1,77 @@
+<!--pages/yinbiao/yinbiao.wxml-->
+<van-tabs 
+  animated
+  active="{{active}}"
+  sticky
+  swipeable
+  duration="{{0.8}}"
+  line-width="{{50}}"
+>
+  <van-tab title="长元音" >
+    <van-cell-group inset custom-class="van-cell-group" title="\t" wx:for="{{changyuanyin}}" wx:key="index">
+      <van-cell  
+      title="{{item.sign}}" 
+      label="{{item.example}}"
+      size="large"
+      clickable="{{true }}"
+      bind:click="{{item.clickfun}}"
+       >
+        <van-icon slot="right-icon" name="volume"></van-icon>
+      </van-cell>
+    </van-cell-group>
+  </van-tab>
+  <van-tab title="短元音">
+      <van-cell-group inset  title="\t" wx:for="{{duanyuanyin}}" wx:key="index">
+      <van-cell  
+      title="{{item.sign}}" 
+      label="{{item.example}}"
+      size="large"
+      clickable="{{true }}"
+      bind:click="{{item.clickfun}}"
+       >
+        <van-icon slot="right-icon" name="volume"></van-icon>
+      </van-cell>
+    </van-cell-group>
+  </van-tab>
+  <van-tab title="双元音">
+     <van-cell-group inset  title="\t" wx:for="{{shuangyuanyin}}" wx:key="index">
+      <van-cell  
+      title="{{item.sign}}" 
+      label="{{item.example}}"
+      size="large"
+      clickable="{{true }}"
+      bind:click="{{item.clickfun}}"
+       >
+        <van-icon slot="right-icon" name="volume"></van-icon>
+      </van-cell>
+    </van-cell-group>
+  </van-tab>
+  <van-tab title="清辅音">
+    <van-cell-group inset  title="\t" wx:for="{{qingfuyin}}" wx:key="index">
+      <van-cell  
+      title="{{item.sign}}" 
+      label="{{item.example}}"
+      size="large"
+      clickable="{{true }}"
+      bind:click="{{item.clickfun}}"
+       >
+        <van-icon slot="right-icon" name="volume"></van-icon>
+      </van-cell>
+    </van-cell-group>
+  </van-tab>
+  <van-tab title="浊辅音">
+     <van-cell-group inset  title="\t" wx:for="{{zhuofuyin}}" wx:key="index">
+      <van-cell  
+      title="{{item.sign}}" 
+      label="{{item.example}}"
+      size="large"
+      clickable="{{true }}"
+      bind:click="{{item.clickfun}}"
+       >
+        <van-icon slot="right-icon" name="volume"></van-icon>
+      </van-cell>
+    </van-cell-group>
+  </van-tab>
+</van-tabs>
+
+
