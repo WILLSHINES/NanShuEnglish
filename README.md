@@ -1,4 +1,4 @@
-# Nanshu-English
+# Nanshu-English 南书英语
 
 #### 介绍👩‍💻
 微信小程序南书英语
@@ -14,10 +14,12 @@
   将HTML、Markdown转为微信小程序WXML(WeiXin Markup Language)的渲染库。 ![ToWxml组件GitHub地址](https://github.com/sbfkcel/towxml)
 ### 效果展示
 #### 效果图一
-![](https://github.com/WILLSHINES/NanShuEnglish/blob/master/images/%E6%95%88%E6%9E%9C6.png)
+![效果图一](https://github.com/WILLSHINES/NanShuEnglish/blob/master/images/%E6%95%88%E6%9E%9C6.png?raw=true)
+#### 效果图二
+![效果图二](https://github.com/WILLSHINES/NanShuEnglish/blob/master/images/%E6%95%88%E6%9E%9C5.png?raw=true)
 #### 安装教程
 
-1. 下载安装!(微信开发者工具下载地址)[https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html]
+1. 下载安装![微信开发者工具下载地址](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
 2. 拉取项目 `git clone https://github.com/WILLSHINES/NanShuEnglish`
 3. 在微信开发者工具中导入项目
 
