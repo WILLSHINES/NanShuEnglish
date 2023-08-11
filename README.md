@@ -19,7 +19,7 @@
 
 #### 效果图一
 
-![效果图一](https://github.com/WILLSHINES/NanShuEnglish/blob/master/images/%E6%95%88%E6%9E%9C6.png)
+![效果图一](./images/效果5.png)
 #### 效果图二
 ![效果图二](https://github.com/WILLSHINES/NanShuEnglish/blob/master/images/%E6%95%88%E6%9E%9C5.png)
 
