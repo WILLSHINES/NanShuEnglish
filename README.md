@@ -6,7 +6,7 @@
 #### 软件架构🚀
 软件架构说明
 * 原生微信小程序
-  使用JavaScript语言和 WXML、WXSS 及其JSON配置文件 !(微信小程序开发文档)[https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html)
+  使用JavaScript语言和 WXML、WXSS 及其JSON配置文件 ![微信小程序开发文档](https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html)
 * Vant Weapp 
   轻量、可靠的小程序 UI 组件库。 ![Vant Weapp官网地址](https://vant-contrib.gitee.io/vant-weapp/#/quickstart)
 * ToWxml组件 
