@@ -19,9 +19,9 @@
 
 #### 效果图一
 
-![效果图一](https://github.com/WILLSHINES/NanShuEnglish/blob/master/images/%E6%95%88%E6%9E%9C6.png?raw=true)
+![](https://github.com/WILLSHINES/NanShuEnglish/blob/master/images/%E6%95%88%E6%9E%9C6.png?raw=true)
 #### 效果图二
-![效果图二](https://github.com/WILLSHINES/NanShuEnglish/blob/master/images/%E6%95%88%E6%9E%9C5.png?raw=true)
+![](https://github.com/WILLSHINES/NanShuEnglish/blob/master/images/%E6%95%88%E6%9E%9C5.png?raw=true)
 
 ### 安装教程
 
