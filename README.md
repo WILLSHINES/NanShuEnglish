@@ -1,10 +1,10 @@
 # Nanshu-English 南书英语
 
-#### 介绍👩‍💻
+### 介绍👩‍💻
 微信小程序南书英语
 2023年毕业设计作品，不足之处，请多多包含哈😭！
 
-#### 软件架构🚀
+### 软件架构🚀
 软件架构说明
 * 原生微信小程序
   使用JavaScript语言和 WXML、WXSS 及其JSON配置文件 ![微信小程序开发文档](https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Overview.html)
@@ -23,13 +23,13 @@
 2. 拉取项目 `git clone https://github.com/WILLSHINES/NanShuEnglish`
 3. 在微信开发者工具中导入项目
 
-#### 使用说明
+### 使用说明
 
 1.  下载安装微信开发者工具
 2.  fork本仓库代码
 3.  使用微信开发者工具打开此项目
 
-#### 参与贡献
+### 参与贡献
 
 1.  Fork 本仓库
 2.  新建 Feat_xxx 分支
