@@ -28,8 +28,9 @@
 
 ### 安装教程🖥️
 
-1. 下载安装  [微信开发者工具下载地址](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
-2. 拉取项目 `git clone https://github.com/WILLSHINES/NanShuEnglish`
+1. 下载安装   [微信开发者工具下载地址](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
+2. 拉取项目
+ ```git clone https://github.com/WILLSHINES/NanShuEnglish```
 3. 在微信开发者工具中导入项目
 
 ### 使用说明🧑‍💻
